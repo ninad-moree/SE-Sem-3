@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-09b1dedc6a7328ab1f43.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Scanfill",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Scanfill::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Scanfill-Debug-ae4104fe830aa5e179ca.json",
+					"name" : "Scanfill",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Scanfill_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Scanfill_autogen-Debug-af01b7ae57daa01b7311.json",
+					"name" : "Scanfill_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Scanfill_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Scanfill_autogen_timestamp_deps-Debug-3a61ba8c594e064be0b1.json",
+					"name" : "Scanfill_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/SE-Lab Programs/CG Assignments/build-Scanfill-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+		"source" : "D:/SE-Lab Programs/CG Assignments/Scanfill"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

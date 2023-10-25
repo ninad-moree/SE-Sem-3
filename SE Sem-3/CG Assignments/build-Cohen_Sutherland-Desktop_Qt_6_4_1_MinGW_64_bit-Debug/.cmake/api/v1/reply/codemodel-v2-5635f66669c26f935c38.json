@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-c7b7e02ade0b20a6991a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Cohen_Sutherland",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Cohen_Sutherland::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Cohen_Sutherland-Debug-a66a156ae72d091bc3b0.json",
+					"name" : "Cohen_Sutherland",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Cohen_Sutherland_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Cohen_Sutherland_autogen-Debug-ac011f0279b1aa67b8e7.json",
+					"name" : "Cohen_Sutherland_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Cohen_Sutherland_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Cohen_Sutherland_autogen_timestamp_deps-Debug-924b89a7f1b000ac084a.json",
+					"name" : "Cohen_Sutherland_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/SE-Lab Programs/CG Assignments/build-Cohen_Sutherland-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+		"source" : "D:/SE-Lab Programs/CG Assignments/Cohen_Sutherland"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

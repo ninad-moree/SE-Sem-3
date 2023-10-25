@@ -1,0 +1,43 @@
+# ninja log v5
+1	636	6917562298591230	Transformations_autogen/timestamp	c7cf0836d574638d
+1	636	6917562298591230	Transformations_autogen/mocs_compilation.cpp	c7cf0836d574638d
+1	636	6917562298591230	D:/SE-Lab Programs/CG Assignments/build-Transformations-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Transformations_autogen/timestamp	c7cf0836d574638d
+1	636	6917562298591230	D:/SE-Lab Programs/CG Assignments/build-Transformations-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Transformations_autogen/mocs_compilation.cpp	c7cf0836d574638d
+636	3753	6917562330996958	CMakeFiles/Transformations.dir/main.cpp.obj	b48fe5d9ae456bfe
+666	3774	6917562331207881	CMakeFiles/Transformations.dir/Transformations_autogen/mocs_compilation.cpp.obj	fb47241d808cde6e
+4	231	6917565545691684	Transformations_autogen/timestamp	c7cf0836d574638d
+4	231	6917565545691684	Transformations_autogen/mocs_compilation.cpp	c7cf0836d574638d
+4	231	6917565545691684	D:/SE-Lab Programs/CG Assignments/build-Transformations-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Transformations_autogen/timestamp	c7cf0836d574638d
+4	231	6917565545691684	D:/SE-Lab Programs/CG Assignments/build-Transformations-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Transformations_autogen/mocs_compilation.cpp	c7cf0836d574638d
+235	3445	6917565577845327	CMakeFiles/Transformations.dir/mainwindow.cpp.obj	24319a4e3a7db018
+3446	3683	6917565580164130	Transformations.exe	527fac331df8d5a
+4	238	6917565983745823	Transformations_autogen/timestamp	c7cf0836d574638d
+4	238	6917565983745823	Transformations_autogen/mocs_compilation.cpp	c7cf0836d574638d
+4	238	6917565983745823	D:/SE-Lab Programs/CG Assignments/build-Transformations-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Transformations_autogen/timestamp	c7cf0836d574638d
+4	238	6917565983745823	D:/SE-Lab Programs/CG Assignments/build-Transformations-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Transformations_autogen/mocs_compilation.cpp	c7cf0836d574638d
+241	3411	6917566015161817	CMakeFiles/Transformations.dir/mainwindow.cpp.obj	24319a4e3a7db018
+3411	3712	6917566018413816	Transformations.exe	527fac331df8d5a
+4	268	6917566646217498	Transformations_autogen/timestamp	c7cf0836d574638d
+4	268	6917566646217498	Transformations_autogen/mocs_compilation.cpp	c7cf0836d574638d
+4	268	6917566646217498	D:/SE-Lab Programs/CG Assignments/build-Transformations-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Transformations_autogen/timestamp	c7cf0836d574638d
+4	268	6917566646217498	D:/SE-Lab Programs/CG Assignments/build-Transformations-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Transformations_autogen/mocs_compilation.cpp	c7cf0836d574638d
+271	3590	6917566679439228	CMakeFiles/Transformations.dir/mainwindow.cpp.obj	24319a4e3a7db018
+3590	3813	6917566681619807	Transformations.exe	527fac331df8d5a
+6	346	6917567437267228	Transformations_autogen/timestamp	c7cf0836d574638d
+6	346	6917567437267228	Transformations_autogen/mocs_compilation.cpp	c7cf0836d574638d
+6	346	6917567437267228	D:/SE-Lab Programs/CG Assignments/build-Transformations-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Transformations_autogen/timestamp	c7cf0836d574638d
+6	346	6917567437267228	D:/SE-Lab Programs/CG Assignments/build-Transformations-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Transformations_autogen/mocs_compilation.cpp	c7cf0836d574638d
+349	3337	6917567467218115	CMakeFiles/Transformations.dir/mainwindow.cpp.obj	24319a4e3a7db018
+3338	3636	6917567470122540	Transformations.exe	527fac331df8d5a
+12	508	6917568393463981	Transformations_autogen/timestamp	c7cf0836d574638d
+12	508	6917568393463981	Transformations_autogen/mocs_compilation.cpp	c7cf0836d574638d
+12	508	6917568393463981	D:/SE-Lab Programs/CG Assignments/build-Transformations-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Transformations_autogen/timestamp	c7cf0836d574638d
+12	508	6917568393463981	D:/SE-Lab Programs/CG Assignments/build-Transformations-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Transformations_autogen/mocs_compilation.cpp	c7cf0836d574638d
+513	7377	6917568462147933	CMakeFiles/Transformations.dir/mainwindow.cpp.obj	24319a4e3a7db018
+7378	7930	6917568467513062	Transformations.exe	527fac331df8d5a
+6	300	6917569114835733	Transformations_autogen/timestamp	c7cf0836d574638d
+6	300	6917569114835733	Transformations_autogen/mocs_compilation.cpp	c7cf0836d574638d
+6	300	6917569114835733	D:/SE-Lab Programs/CG Assignments/build-Transformations-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Transformations_autogen/timestamp	c7cf0836d574638d
+6	300	6917569114835733	D:/SE-Lab Programs/CG Assignments/build-Transformations-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Transformations_autogen/mocs_compilation.cpp	c7cf0836d574638d
+304	4018	6917569152024150	CMakeFiles/Transformations.dir/mainwindow.cpp.obj	24319a4e3a7db018
+4019	4351	6917569155267765	Transformations.exe	527fac331df8d5a

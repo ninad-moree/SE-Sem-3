@@ -1,0 +1,77 @@
+# ninja log v5
+2812	3026	6918321188813015	Hilberts_Curve.exe	4f8d168800334137
+4	226	6918321160870193	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+4	226	6918321160870193	Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+4	226	6918321160870193	Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+4	226	6918321160870193	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+228	2811	6918321186710008	CMakeFiles/Hilberts_Curve.dir/mainwindow.cpp.obj	f23c1d7d08564b45
+782	3100	6918301208008576	CMakeFiles/Hilberts_Curve.dir/Hilberts_Curve_autogen/mocs_compilation.cpp.obj	c7c5a6c3a6cf698c
+821	3290	6918301209999134	CMakeFiles/Hilberts_Curve.dir/main.cpp.obj	b2d5e8bb810ecb67
+5	251	6918321786709570	Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+5	251	6918321786709570	Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+5	251	6918321786709570	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+5	251	6918321786709570	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+254	2895	6918321813184236	CMakeFiles/Hilberts_Curve.dir/mainwindow.cpp.obj	f23c1d7d08564b45
+2895	3141	6918321815562387	Hilberts_Curve.exe	4f8d168800334137
+5	238	6918322345110914	Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+5	238	6918322345110914	Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+5	238	6918322345110914	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+5	238	6918322345110914	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+240	3146	6918322374162361	CMakeFiles/Hilberts_Curve.dir/mainwindow.cpp.obj	f23c1d7d08564b45
+3147	3396	6918322376611688	Hilberts_Curve.exe	4f8d168800334137
+7	249	6918337074410678	Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+7	249	6918337074410678	Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+7	249	6918337074410678	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+7	249	6918337074410678	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+6	918	6918339619700081	Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+6	918	6918339619700081	Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+6	918	6918339619700081	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+6	918	6918339619700081	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+919	4413	6918339657201462	CMakeFiles/Hilberts_Curve.dir/Hilberts_Curve_autogen/mocs_compilation.cpp.obj	c7c5a6c3a6cf698c
+943	4531	6918339658399786	CMakeFiles/Hilberts_Curve.dir/main.cpp.obj	b2d5e8bb810ecb67
+982	5850	6918339671650803	CMakeFiles/Hilberts_Curve.dir/mainwindow.cpp.obj	f23c1d7d08564b45
+5850	6184	6918339674901425	Hilberts_Curve.exe	4f8d168800334137
+5	237	6918340427510976	Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+5	237	6918340427510976	Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+5	237	6918340427510976	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+5	237	6918340427510976	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+240	3604	6918340461201957	CMakeFiles/Hilberts_Curve.dir/mainwindow.cpp.obj	f23c1d7d08564b45
+3604	3889	6918340463951916	Hilberts_Curve.exe	4f8d168800334137
+12	681	6919558837124383	Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+12	681	6919558837124383	Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+12	681	6919558837124383	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+12	681	6919558837124383	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+682	3696	6919558868957347	CMakeFiles/Hilberts_Curve.dir/Hilberts_Curve_autogen/mocs_compilation.cpp.obj	c7c5a6c3a6cf698c
+723	3717	6919558869059475	CMakeFiles/Hilberts_Curve.dir/main.cpp.obj	b2d5e8bb810ecb67
+699	3928	6919558871205694	CMakeFiles/Hilberts_Curve.dir/mainwindow.cpp.obj	f23c1d7d08564b45
+3929	4163	6919558873490061	Hilberts_Curve.exe	4f8d168800334137
+19	251	6923564509732185	Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+19	251	6923564509732185	Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+19	251	6923564509732185	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+19	251	6923564509732185	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+254	2034	6923564527584112	CMakeFiles/Hilberts_Curve.dir/mainwindow.cpp.obj	f23c1d7d08564b45
+2035	2356	6923564530725197	Hilberts_Curve.exe	4f8d168800334137
+6	325	6923565426054790	Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+6	325	6923565426054790	Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+6	325	6923565426054790	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+6	325	6923565426054790	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+329	2967	6923565452500079	CMakeFiles/Hilberts_Curve.dir/mainwindow.cpp.obj	f23c1d7d08564b45
+2968	3276	6923565455520092	Hilberts_Curve.exe	4f8d168800334137
+5	252	6923566652513323	Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+5	252	6923566652513323	Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+5	252	6923566652513323	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+5	252	6923566652513323	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+256	2170	6923566671702880	CMakeFiles/Hilberts_Curve.dir/mainwindow.cpp.obj	f23c1d7d08564b45
+2171	2419	6923566674113707	Hilberts_Curve.exe	4f8d168800334137
+4	211	6923567315304144	Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+4	211	6923567315304144	Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+4	211	6923567315304144	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+4	211	6923567315304144	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+214	2113	6923567334332951	CMakeFiles/Hilberts_Curve.dir/mainwindow.cpp.obj	f23c1d7d08564b45
+2114	2369	6923567336812897	Hilberts_Curve.exe	4f8d168800334137
+10	399	6923568087372728	Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+10	399	6923568087372728	Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+10	399	6923568087372728	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/timestamp	e26fb8ecf062b5b6
+10	399	6923568087372728	D:/SE-Lab Programs/CG Assignments/build-Hilberts_Curve-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Hilberts_Curve_autogen/mocs_compilation.cpp	e26fb8ecf062b5b6
+403	2972	6923568113130922	CMakeFiles/Hilberts_Curve.dir/mainwindow.cpp.obj	f23c1d7d08564b45
+2973	3304	6923568116355164	Hilberts_Curve.exe	4f8d168800334137

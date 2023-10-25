@@ -1,0 +1,27 @@
+# ninja log v5
+2	866	6932203281519371	Cohen_Sutherland_autogen/timestamp	736f76310cf752f1
+2	866	6932203281519371	Cohen_Sutherland_autogen/mocs_compilation.cpp	736f76310cf752f1
+2	866	6932203281519371	D:/SE-Lab Programs/CG Assignments/build-Cohen_Sutherland-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Cohen_Sutherland_autogen/timestamp	736f76310cf752f1
+2	866	6932203281519371	D:/SE-Lab Programs/CG Assignments/build-Cohen_Sutherland-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Cohen_Sutherland_autogen/mocs_compilation.cpp	736f76310cf752f1
+866	3431	6932203309010050	CMakeFiles/Cohen_Sutherland.dir/Cohen_Sutherland_autogen/mocs_compilation.cpp.obj	b876e62566cda341
+911	3510	6932203309842755	CMakeFiles/Cohen_Sutherland.dir/main.cpp.obj	1ed9fad5e4d71b77
+889	3710	6932203311839359	CMakeFiles/Cohen_Sutherland.dir/mainwindow.cpp.obj	75ed8550d377e7d5
+3710	3977	6932203314429434	Cohen_Sutherland.exe	6360df51de238156
+5	305	6932204049886760	Cohen_Sutherland_autogen/timestamp	736f76310cf752f1
+5	305	6932204049886760	Cohen_Sutherland_autogen/mocs_compilation.cpp	736f76310cf752f1
+5	305	6932204049886760	D:/SE-Lab Programs/CG Assignments/build-Cohen_Sutherland-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Cohen_Sutherland_autogen/timestamp	736f76310cf752f1
+5	305	6932204049886760	D:/SE-Lab Programs/CG Assignments/build-Cohen_Sutherland-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Cohen_Sutherland_autogen/mocs_compilation.cpp	736f76310cf752f1
+309	2554	6932204072336583	CMakeFiles/Cohen_Sutherland.dir/mainwindow.cpp.obj	75ed8550d377e7d5
+2554	2845	6932204075247459	Cohen_Sutherland.exe	6360df51de238156
+4	240	6932204965567714	Cohen_Sutherland_autogen/timestamp	736f76310cf752f1
+4	240	6932204965567714	Cohen_Sutherland_autogen/mocs_compilation.cpp	736f76310cf752f1
+4	240	6932204965567714	D:/SE-Lab Programs/CG Assignments/build-Cohen_Sutherland-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Cohen_Sutherland_autogen/timestamp	736f76310cf752f1
+4	240	6932204965567714	D:/SE-Lab Programs/CG Assignments/build-Cohen_Sutherland-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Cohen_Sutherland_autogen/mocs_compilation.cpp	736f76310cf752f1
+245	2318	6932204986382850	CMakeFiles/Cohen_Sutherland.dir/mainwindow.cpp.obj	75ed8550d377e7d5
+2318	2587	6932204988991594	Cohen_Sutherland.exe	6360df51de238156
+7	325	6932205642156283	Cohen_Sutherland_autogen/timestamp	736f76310cf752f1
+7	325	6932205642156283	Cohen_Sutherland_autogen/mocs_compilation.cpp	736f76310cf752f1
+7	325	6932205642156283	D:/SE-Lab Programs/CG Assignments/build-Cohen_Sutherland-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Cohen_Sutherland_autogen/timestamp	736f76310cf752f1
+7	325	6932205642156283	D:/SE-Lab Programs/CG Assignments/build-Cohen_Sutherland-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/Cohen_Sutherland_autogen/mocs_compilation.cpp	736f76310cf752f1
+329	3105	6932205669942941	CMakeFiles/Cohen_Sutherland.dir/mainwindow.cpp.obj	75ed8550d377e7d5
+3106	3358	6932205672377659	Cohen_Sutherland.exe	6360df51de238156
