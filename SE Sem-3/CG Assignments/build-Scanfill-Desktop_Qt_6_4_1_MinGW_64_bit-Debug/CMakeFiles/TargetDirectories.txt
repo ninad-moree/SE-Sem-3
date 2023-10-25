@@ -1,9 +1,0 @@
-D:/SE-Lab Programs/CG Assignments/build-Scanfill-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/Scanfill.dir
-D:/SE-Lab Programs/CG Assignments/build-Scanfill-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
-D:/SE-Lab Programs/CG Assignments/build-Scanfill-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
-D:/SE-Lab Programs/CG Assignments/build-Scanfill-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
-D:/SE-Lab Programs/CG Assignments/build-Scanfill-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/install.dir
-D:/SE-Lab Programs/CG Assignments/build-Scanfill-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
-D:/SE-Lab Programs/CG Assignments/build-Scanfill-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
-D:/SE-Lab Programs/CG Assignments/build-Scanfill-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/Scanfill_autogen_timestamp_deps.dir
-D:/SE-Lab Programs/CG Assignments/build-Scanfill-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/Scanfill_autogen.dir

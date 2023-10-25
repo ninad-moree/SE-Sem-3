@@ -1,9 +1,0 @@
-D:/PICT College/SE Sem-3/Lab Programs/CG Assignments/build-Cohen_Sutherland_User_Friendly-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/Cohen_Sutherland_User_Friendly.dir
-D:/PICT College/SE Sem-3/Lab Programs/CG Assignments/build-Cohen_Sutherland_User_Friendly-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
-D:/PICT College/SE Sem-3/Lab Programs/CG Assignments/build-Cohen_Sutherland_User_Friendly-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
-D:/PICT College/SE Sem-3/Lab Programs/CG Assignments/build-Cohen_Sutherland_User_Friendly-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
-D:/PICT College/SE Sem-3/Lab Programs/CG Assignments/build-Cohen_Sutherland_User_Friendly-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/install.dir
-D:/PICT College/SE Sem-3/Lab Programs/CG Assignments/build-Cohen_Sutherland_User_Friendly-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
-D:/PICT College/SE Sem-3/Lab Programs/CG Assignments/build-Cohen_Sutherland_User_Friendly-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
-D:/PICT College/SE Sem-3/Lab Programs/CG Assignments/build-Cohen_Sutherland_User_Friendly-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/Cohen_Sutherland_User_Friendly_autogen_timestamp_deps.dir
-D:/PICT College/SE Sem-3/Lab Programs/CG Assignments/build-Cohen_Sutherland_User_Friendly-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/Cohen_Sutherland_User_Friendly_autogen.dir
