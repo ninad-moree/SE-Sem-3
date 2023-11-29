@@ -7,9 +7,22 @@
   <img src="https://img.shields.io/badge/Fundamentals of Data Structure-brown?style=for-the-badge&" alt="FDS Badge" />
 </div>
 
-1. Object Oriented Programming Laboratory
-2. Computer Graphics Laboratory
-3. Fundamentals of Data Structure Laboratory
+<a href="https://github.com/ninad-moree/SE-Lab-Work/tree/main/SE%20Sem-3/OOP%20Assignments">
+      1. Object Oriented Programming Laboratory
+</a>
+
+<br />
+
+<a href="https://github.com/ninad-moree/SE-Lab-Work/tree/main/SE%20Sem-3/CG%20Assignments">
+      2. Computer Graphics Laboratory
+</a>
+
+<br />
+
+<a href="https://github.com/ninad-moree/SE-Lab-Work/tree/main/SE%20Sem-3/DSL%20Assignments">
+      3. Fundamentals of Data Structure Laboratory
+</a>
+
 
 ## Semester: 4
 <div id="badges" style="display: flex; justify-content: center;">
@@ -17,5 +30,14 @@
       <img src="https://img.shields.io/badge/Microprocessor-red?style=for-the-badge&" alt="MP Badge" />  
 </div>
 
-1. Data Structure and Algorithms Laboratory
-2. Microprocessor Laboratory
+<a href="https://github.com/ninad-moree/SE-Lab-Work/tree/main/SE%20Sem-4/DSA">
+      1. Data Structure and Algorithms Laboratory
+</a>
+
+<br />
+
+<a href="https://github.com/ninad-moree/SE-Lab-Work/tree/main/SE%20Sem-4/MP">
+      2. Microprocessor Laboratory
+</a>
+
+
