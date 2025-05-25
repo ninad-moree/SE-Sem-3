@@ -1,9 +1,3 @@
-'''   Write a Python program to compute following computation on matrix:
-          a) Addition of two matrices
-          b) Subtraction of two matrices
-          c) Multiplication of two matrices
-          d) Transpose of a matrix '''
-
 class Matrix_Operations:
     global matrix1st, matrix2nd, results
 

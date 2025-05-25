@@ -1,42 +1,27 @@
-/*  The ticket booking system of Cinemax theater has to be implemented using C++ program.
-    There are 10 rows and 7 seats in each row. Doubly circular linked list has to be
-    maintained to keep track of free seats at rows. Assume some random booking to start
-    with. Use array to store pointers (Head pointer) to each row. On demand
-    a) The list of available seats is to be displayed
-    b) The seats are to be booked
-    c) The booking can be cancelled. */
-
 #include<iostream>
 #include<conio.h>
 using namespace std;
 
-struct Node
-{
+struct Node {
     int seat_row , seat_col;
     string status;
     Node *next , *previous;
 } *head[10], *tail[10];
 
-class Ticket_Booking
-{
+class Ticket_Booking {
     public:
-    Ticket_Booking()
-    {
-        for(int i=1;i<=10;i++)
-        {
+    Ticket_Booking() {
+        for(int i=1;i<=10;i++) {
             head[i] = tail[i] = NULL;
             Node *newnode;
-            for(int j=1;j<=7;j++)
-            {
+            for(int j=1;j<=7;j++) {
                 newnode = Create_Node(i,j);
-                if(head[i] == tail[i] && head[i] == NULL)
-                {
+                if(head[i] == tail[i] && head[i] == NULL) {
                     head[i] = tail[i] = newnode;
                     head[i]->next = tail[i]->next = NULL;
                     head[i]->previous = tail[i]->previous = NULL;
                 }
-                else  // insert at end
-                {
+                else  {
                     tail[i]->next = newnode;
                     newnode->next = head[i];
                     newnode->previous = tail[i];
@@ -47,17 +32,14 @@ class Ticket_Booking
         }
     }
 
-    Node *Create_Node(int x , int y)
-    {
+    Node *Create_Node(int x , int y) {
         Node *newnode;
         newnode = new(struct Node);
-        if(newnode == NULL)
-        {
+        if(newnode == NULL) {
             cout<<"No seats are booked"<<endl;
             return 0;
         }
-        else
-        {
+        else {
             newnode->seat_row = x;
             newnode->seat_col = y;
             newnode->status = "A";
@@ -67,14 +49,12 @@ class Ticket_Booking
         }
     }
 
-    void Book_Seat()
-    {
+    void Book_Seat() {
         int noOfSeats;
         cout<<"Enter how many seats you want to book:"<<flush;
         cin>>noOfSeats;
         cout<<endl;
-        for(int k=1;k<=noOfSeats;k++)
-        { 
+        for(int k=1;k<=noOfSeats;k++) {
             int x,y;
             cout<<"Enter the row and column of the seat you want to book:"<<flush;
             cin>>x>>y;
@@ -82,16 +62,11 @@ class Ticket_Booking
 
             Node *newnode;
             newnode = head[x];
-            for(int i=1;i<=7;i++)
-            {
-                if(newnode->seat_col == y)
-                {
+            for(int i=1;i<=7;i++) {
+                if(newnode->seat_col == y) {
                     if (newnode->status ==  "A")
-                    {
                         newnode->status = "B";
-                    }
-                    else
-                    {
+                    else {
                         cout<<" Sorry the seat is already booked"<<endl;
                         cout<<endl;
                     }
@@ -99,18 +74,17 @@ class Ticket_Booking
                 newnode = newnode->next;
             }
         }
+
         Display_Seat();
         cout<<endl;
     }
 
-    void Cancel_Seat()
-    {
+    void Cancel_Seat() {
         int dltSeat;
         cout<<"Enter how many seats you want to delete:"<<flush;
         cin>>dltSeat;
         cout<<endl;
-        for(int k=1;k<=dltSeat;k++)
-        {  
+        for(int k=1;k<=dltSeat;k++) {  
             int x,y;
             cout<<"Enter the row and column of the seat you want to cancel:"<<flush;
             cin>>x>>y;
@@ -118,16 +92,11 @@ class Ticket_Booking
 
             Node *dltnode;
             dltnode = head[x];
-            for(int i=1;i<=7;i++)
-            {
-                if(dltnode->seat_col == y)
-                {
+            for(int i=1;i<=7;i++) {
+                if(dltnode->seat_col == y) {
                     if(dltnode->status == "B")
-                    {
                         dltnode->status = "A";
-                    }
-                    else
-                    {
+                    else {
                         cout<<"Seat is already not booked"<<endl;
                         cout<<endl;
                     }
@@ -135,28 +104,27 @@ class Ticket_Booking
                 dltnode = dltnode->next;
             }
         }
+
         Display_Seat();
         cout<<endl;
     }
 
-    void Display_Seat()
-    {
+    void Display_Seat() {
         Node *nptr;
-        for(int i=1;i<=10;i++)
-        {
+        for(int i=1;i<=10;i++) {
             nptr=head[i];
-            for(int j=1;j<=7;j++)
-            {
+
+            for(int j=1;j<=7;j++) {
                 cout<<nptr->seat_row<<":"<<nptr->seat_col<<"-"<<nptr->status<<"\t";
                 nptr = nptr->next;
             }
+
             cout<<endl;
         }
     }
 };
 
-int main()
-{
+int main() {
     Ticket_Booking ticket;
     bool repeat = true;
     int choice;
@@ -164,8 +132,7 @@ int main()
     ticket.Display_Seat();
     cout<<endl;
 
-    while(repeat)
-    { 
+    while(repeat) { 
         cout<<" ****** MENU ****** "<<endl;
         cout<<"1. Book Seats"<<endl;
         cout<<"2. Cancel Seats"<<endl;
@@ -176,8 +143,7 @@ int main()
         cin>>choice;
         cout<<endl;
 
-        switch(choice)
-        {
+        switch(choice) {
             case 1:
             ticket.Book_Seat();
             cout<<endl;
@@ -198,6 +164,7 @@ int main()
             break;
         }
     }
+    
     getch();
     return 0;
 }

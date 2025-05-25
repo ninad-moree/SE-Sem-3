@@ -1,8 +1,3 @@
-''' Write a python program to store first year percentage of students in array. Write function 
-    for sorting array of floating point numbers in ascending order using quick sort and display 
-    top five scores: 
-    1-11-2022 '''
-
 class Sorting:
     def Array():
         global array,n

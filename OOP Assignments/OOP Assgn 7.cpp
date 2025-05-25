@@ -6,21 +6,18 @@
 #include <map>
 using namespace std;
 
-void createMap(map<string, int> &population)
-{
+void createMap(map<string, int> &population) {
 	population.insert(pair<string, int> ("Bihar", 104099452));
 	population.insert(pair<string, int> ("Maharashtra", 112374333));
 	population.insert(pair<string, int> ("Rajasthan", 68548437));
 }
 
-int main()
-{
+int main() {
 	map<string, int> population;
 	createMap(population);
 	bool repeat=true;
 	int choice;
-	while(repeat)
-	{
+	while(repeat) {
 		cout<<endl;
 		cout<<"****** MENU ******"<<endl;
 		cout<<"1. Insert Date"<<endl;
@@ -32,10 +29,8 @@ int main()
 		cout<<"Enter your choice"<<endl;
 		cin>>choice;
 
-		switch (choice)
-        {
-			case 1:
-			{
+		switch (choice) {
+			case 1: {
 				string state;
 				int pop;
 				cout << "Enter name of state: ";
@@ -47,8 +42,7 @@ int main()
 				break;
 			}
 
-			case 2:
-			{
+			case 2: {
 				cout << "# Population Data #" << endl;
 				map<string, int> :: iterator itr;
 				for (itr = population.begin(); itr != population.end(); itr++){
@@ -57,8 +51,7 @@ int main()
 				break;
 			}
 
-			case 3:
-			{
+			case 3: {
 				string state;
 				cout << "Enter state to search: ";
 				cin >> state;
@@ -66,13 +59,13 @@ int main()
 				break;
 			}
 
-			case 0:
-			{
+			case 0: {
 				cout << "# Exit from Database" << endl;
 				break;
 			}
 		}
 	}
+	
     getch();
 	return 0;
 }

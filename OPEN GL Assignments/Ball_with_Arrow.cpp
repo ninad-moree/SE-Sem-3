@@ -15,23 +15,23 @@ float ballZ = -1.2f;
 
 static int flag=1;
 void drawBall(void) {
-        glColor3f(1,1,1); //set ball colour
-        glTranslatef(ballX,ballY,ballZ); //moving it toward the screen a bit on creation
-        glutSolidSphere (0.05, 30, 30); //create ball.
-
+    glColor3f(1,1,1); //set ball colour
+    glTranslatef(ballX,ballY,ballZ); //moving it toward the screen a bit on creation
+    glutSolidSphere (0.05, 30, 30); //create ball.
 }
-void keyPress(int key, int x, int y)
-{
-      if(key==GLUT_KEY_RIGHT)
+
+void keyPress(int key, int x, int y) {
+    if(key==GLUT_KEY_RIGHT)
         ballX += 0.05f;
     if(key==GLUT_KEY_LEFT)
         ballX  -= 0.05f;
-if(key==GLUT_KEY_UP)
+    if(key==GLUT_KEY_UP)
         ballY += 0.05f;
     if(key==GLUT_KEY_DOWN)
         ballY  -= 0.05f;
     glutPostRedisplay();
 }
+
 //Called when the window is resized
 void handleResize(int w, int h) {
     //Tell OpenGL how to convert from coordinates to pixel values
@@ -39,21 +39,17 @@ void handleResize(int w, int h) {
     glMatrixMode(GL_PROJECTION); //Switch to setting the camera perspective
     //Set the camera perspective
     glLoadIdentity(); //Reset the camera
-    gluPerspective(45.0,                  //The camera angle
-                   (double)w / (double)h, //The width-to-height ratio
-                   1.0,                   //The near z clipping coordinate
-                   200.0);                //The far z clipping coordinate
+    gluPerspective(45.0, (double)w / (double)h, 1.0, 200.0);                
 }
 
-void drawScene()
-{
+void drawScene() {
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
-  //  glClearColor(bgColR,bgColG,bgColB,0.0);
+    //  glClearColor(bgColR,bgColG,bgColB,0.0);
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
     //drawing the SUN
     glPushMatrix();
-        drawBall();
+    drawBall();
     glPopMatrix();
     //drawing the Mount Avarest
     glPushMatrix();
@@ -64,8 +60,7 @@ void drawScene()
     glutSwapBuffers();
 }
 
-int main(int argc,char** argv)
-{
+int main(int argc,char** argv) {
     glutInit(&argc,argv);
     glutInitDisplayMode(GLUT_DOUBLE|GLUT_RGB|GLUT_DEPTH);
     glutInitWindowSize(400,400);

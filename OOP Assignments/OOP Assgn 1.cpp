@@ -1,8 +1,7 @@
 #include <iostream>
 #include <conio.h>
 using namespace std;
-class Complex
-{
+class Complex {
     public:
     float real,img;
     Complex(){}
@@ -12,42 +11,40 @@ class Complex
     friend ostream &operator<<(ostream &,Complex&);
     friend istream &operator>>(istream &,Complex&);
 };
-Complex Complex::operator+ (Complex obj)
-{
+
+Complex Complex::operator+ (Complex obj) {
     Complex temp;
     temp.real=real+obj.real;
     temp.img=img+obj.img;
     return (temp);
 }
-istream &operator>>(istream &is, Complex &obj)
-{
+
+istream &operator>>(istream &is, Complex &obj) {
     is>>obj.real;
     is>>obj.img;
     return is;
 }
-ostream &operator<<(ostream &outt, Complex &obj)
-{
+
+ostream &operator<<(ostream &outt, Complex &obj) {
     outt<<" "<<obj.real;
     outt<<"+"<<obj.img<<"i";
     return outt;
 }
-Complex Complex::operator- (Complex obj)
-{
+Complex Complex::operator- (Complex obj) {
     Complex temp;
     temp.real=real-obj.real;
     temp.img=img-obj.img;
     return (temp);
 }
-Complex Complex::operator* (Complex obj)
-{
+
+Complex Complex::operator* (Complex obj) {
     Complex temp;
     temp.real=real*obj.real-img*obj.img;
     temp.img=img*obj.real+real*obj.img;
     return (temp);
 }
 
-int main()
-{
+int main() {
     Complex a,b,c,d,e;
     int ch;
 
@@ -60,8 +57,7 @@ int main()
     cin >> b;
 
     bool repeat = true;
-    while(repeat)
-    {
+    while(repeat) {
         cout << "Menu" << endl;
         cout << "1. Addition" << endl;
         cout << "2. Subtraction" << endl;
@@ -71,34 +67,33 @@ int main()
         cout << "Enter your choice:" << flush;
         cin >> ch;
 
-        switch (ch)
-        {
+        switch (ch) {
             case 1:
-            cout << "Addition is:" << flush;
-            c=a+b;
-            cout << c << endl;
-            break;
+                cout << "Addition is:" << flush;
+                c=a+b;
+                cout << c << endl;
+                break;
 
             case 2:
-            cout << "Subtraction is:" << flush;
-            d=a-b;
-            cout << d << endl;
-            break;
+                cout << "Subtraction is:" << flush;
+                d=a-b;
+                cout << d << endl;
+                break;
 
             case 3:
-            cout << "Multiplication is:" << flush;
-            e=a*b;
-            cout << e << endl;
-            break;
+                cout << "Multiplication is:" << flush;
+                e=a*b;
+                cout << e << endl;
+                break;
 
             case 4:
-            cout<<"exitting the code"<<endl;
-            repeat=false;
-            break;
+                cout<<"exitting the code"<<endl;
+                repeat=false;
+                break;
 
             default:
-            cout << "Invalid choice" << endl;
-            break;
+                cout << "Invalid choice" << endl;
+                break;
         }
     }
 

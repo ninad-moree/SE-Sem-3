@@ -2,17 +2,14 @@
 #include<conio.h>
 using namespace std;
 
-class Student
-{
+class Student {
 private:
     string name, blood_group, address;
     long long rno, std_class, division, DOB, telephone_num, drv_lic;
 
 public:
-    Student()
-    {
-        try
-        {
+    Student() {
+        try {
             cout << "Enter the Name: ";
             cin >> name;
             cout << "Enter the RollNo: ";
@@ -33,13 +30,12 @@ public:
             cin >> drv_lic;
             cout << "Default constructor executed\n";
         }
-        catch (...)
-        {
+        catch (...) {
             cout << "Some wrong info was entered" << endl;
         }
     }
-    Student(string name, string blood_group, string address, int rno, int std_class, int division, int DOB, int telephone_num, int drv_lic)
-    {
+
+    Student(string name, string blood_group, string address, int rno, int std_class, int division, int DOB, int telephone_num, int drv_lic) {
         this->name = name;
         this->blood_group = blood_group;
         this->address = address;
@@ -51,8 +47,8 @@ public:
         this->drv_lic = drv_lic;
         cout << "Parameterized constructor successfully executed\n";
     }
-    Student(Student &obj)
-    {
+
+    Student(Student &obj) {
         name = obj.name;
         blood_group = obj.blood_group;
         address = obj.address;
@@ -64,12 +60,12 @@ public:
         drv_lic = obj.drv_lic;
         cout << "Copy constructor executed\n";
     }
-    ~Student()
-    {
+
+    ~Student() {
         cout << "Object destructed\n";
     }
-    void display()
-    {
+
+    void display() {
         cout << "Name: " << name << endl;
         cout << "RollNo: " << rno << endl;
         cout << "Class: " << std_class << endl;
@@ -80,14 +76,13 @@ public:
         cout << "Telephone number: " << telephone_num << endl;
         cout << "Driving License No.: " << drv_lic << endl;
     }
+
     friend class Friend;
 };
 
-class Friend
-{
+class Friend {
 public:
-    inline void showName(Student &obj)
-    {
+    inline void showName(Student &obj) {
         cout << "Name is: " << obj.name << "\n";
     }
 };
@@ -97,8 +92,7 @@ int main()
     int choice;
     Student obj1("Ninad", "A+", " Katraj", 21253, 2, 2, 18032003, 7841987199, 69);
 
-    do
-    {
+    do {
         cout<<endl;
         cout<<"**** MENU ****"<<endl;
         cout<<"1. Default COnstructor"<<endl;
@@ -114,50 +108,42 @@ int main()
         cin >> choice;
         cout<<endl;
 
-        switch (choice)
-        {
-            case 1:
-            {
+        switch (choice) {
+            case 1: {
                 Student objD;
                 break;
             }
-            case 2:
-            {
+            case 2: {
                 Student objP("Ninad", "A+", " Katraj", 21253, 2, 2, 18032003, 7841987199, 69);
                 break;
             }
-            case 3:
-            {
+            case 3: {
                 Student objC(obj1);
                 break;
             }
-            case 4:
-            {
+            case 4: {
                 obj1.display();
                 break;
             }
-            case 5:
-            {
+            case 5: {
                 Friend objE;
                 objE.showName(obj1);
                 break;
             }
-            case 6:
-            {
+            case 6: {
                 Student *p = new Student("Ninad", "A+", " Katraj", 21253, 2, 2, 18032003, 7841987199, 69);
                 delete p;
                 break;
             }
-            case 7: 
-            {
+            case 7: {
                 break;
             }
-            default:
-            {
+            default: {
                 cout << "Wrong Input!\n";
             }
         }
     } while (choice != 7);
+    
     getch();
     return 0;
 }

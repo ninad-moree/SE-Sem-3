@@ -1,21 +1,9 @@
-/*  Write C++ program for storing appointment schedule for day. Appointments are booked 
-    randomly using linked list. Set start and end time and min and max duration for visit slot. 
-    Write functions for
-    a) Display free slots
-    b) Book appointment
-    c) Cancel appointment ( check validity, time bounds, availability)
-    d) Sort list based on time
-    e) Sort list based on time using pointer manipulation  
-
-    22 November 2022 */
-
 #include<iostream>
 #include<iomanip>
 #include<conio.h>
 using namespace std;
 
-class Node
-{
+class Node {
     private:
     Node *next;
     bool isBooked;
@@ -25,8 +13,7 @@ class Node
     float max_duration;
 
     public:
-    Node(bool isBooked = false,float start_time=0,float end_time=0,float min_duration=0,float max_duration=60)
-    {
+    Node(bool isBooked = false,float start_time=0,float end_time=0,float min_duration=0,float max_duration=60) {
         this->isBooked=isBooked;
         this->start_time=start_time;
         this->end_time=end_time;
@@ -38,8 +25,7 @@ class Node
     friend class Schedule;
 };
 
-class Schedule
-{
+class Schedule {
     private:
     Node *head;
     Node *tail;
@@ -47,24 +33,22 @@ class Schedule
     static int slot_no;
 
     public:
-    Schedule()
-    {
+    Schedule() {
         head=nullptr;
         tail=nullptr;
         sort=nullptr;
     }
 
-    void Create_Slot(float startTime=0)
-    {
+    void Create_Slot(float startTime=0) {
         Node *temp = new Node();
         slot_no++;
-        if (startTime < 10 || startTime > 17)
-        {
+
+        if (startTime < 10 || startTime > 17) {
             cout<<"Enter valid time"<<endl;
             return;
         }
-        if (startTime==0)
-        {
+
+        if (startTime==0) {
             cout<<"Enter start time:"<<flush;
             cin>>startTime;
         }
@@ -77,40 +61,32 @@ class Schedule
         cout<<"Min duration:"<<flush;
         cin>>temp->min_duration;
 
-        if (head==nullptr)  //empty list
-        {
+        if (head==nullptr)  {
             head=temp;
             tail=temp;
         }
-        else
-        {
+        else {
             tail->next=temp;
             tail=temp;
         }
     }
 
-    void Display_Slot()
-    {
-        if (head != nullptr)
-        {
+    void Display_Slot() {
+        if (head != nullptr) {
             Node *temp = head;
             cout<<"*******Booked SLots*******"<<endl;
             cout<<left<<setw(15)<<"Start time"<<left<<setw(15)<<"End time"<<left<<setw(15)<<"Max duration"<<left<<setw(15)<<"Min Duration"<<endl;
             
-            while(temp!=nullptr)
-            {
+            while(temp!=nullptr) {
                 cout<<left<<setw(15)<<temp->start_time<<left<<setw(15)<<temp->end_time<<left<<setw(15)<<temp->max_duration<<left<<setw(15)<<temp->min_duration<<endl;
                 temp=temp->next;
             }
         }
-        else  // if list empty
-        {
+        else 
             cout<<"No slots booked till now"<<endl;
-        } 
     }
 
-    void Book_SLot()
-    {
+    void Book_SLot() {
         cout<<"Booking time is from 10 to 6"<<endl;
         cout<<endl;
         float startTime;
@@ -118,10 +94,8 @@ class Schedule
         cin>>startTime;
 
         Node *temp = head;
-        while(temp!=nullptr)
-        {
-            if (temp->start_time<=startTime && temp->end_time>startTime )
-            {
+        while(temp!=nullptr) {
+            if (temp->start_time<=startTime && temp->end_time>startTime ) {
                 cout<<"Slot is already booked"<<endl;
                 return;
             }
@@ -130,41 +104,31 @@ class Schedule
         Create_Slot(startTime);
     }
 
-    void Cancel_Slot()
-    {
+    void Cancel_Slot() {
         float startTime;
         cout<<"Enter the start time(hr) to cancel the appointment:"<<flush;
         cin>>startTime;
 
         Node *temp =head;
         Node *temp1=head;
-        while (temp != nullptr)
-        {
-            if(temp->start_time==startTime)
-            {
+        while (temp != nullptr) {
+            if(temp->start_time==startTime) {
                 char i_p;
                 cout<<"Slot found. Please press y to cancel:"<<flush;
                 cin>>i_p;
-                if (i_p=='Y' || i_p=='y')
-                {
+                if (i_p=='Y' || i_p=='y') {
                     if (head->next==nullptr)
-                    {
                         head=nullptr;
-                    }
                     else if(temp == head)
-                    {
                         head=temp->next;
-                    }
                     else
-                    {
                         temp1->next=temp->next;
-                    }
+                    
                     delete temp;
                     slot_no--;
                     return;
                 }
-                else
-                {
+                else {
                     cout<<"Did not cancel the appointment"<<endl;
                     return;
                 } 
@@ -172,18 +136,15 @@ class Schedule
             temp1=temp;
             temp=temp->next;
         }
+
         cout<<"Did not find the slot"<<endl;  
     }
 
-    void Sort_StartTime()
-    {
-        for (int i=0;i<slot_no-1;i++)
-        {
+    void Sort_StartTime() {
+        for (int i=0;i<slot_no-1;i++) {
             Node *temp = head;
-            while (temp->next!=nullptr)
-            {
-                if (temp->start_time  > temp->next->start_time)
-                {
+            while (temp->next!=nullptr) {
+                if (temp->start_time  > temp->next->start_time) {
                     float swap = temp->start_time;
                     temp->start_time = temp->next->start_time;
                     temp->next->start_time = swap;
@@ -205,8 +166,7 @@ class Schedule
         }
     }
 
-    void Sort_Pointers()
-    {
+    void Sort_Pointers() {
         Node *temp1 = head;
         Node *temp2 = head;
 
@@ -214,16 +174,11 @@ class Schedule
         Node *nptr2 = temp2->next;
         Node *nptr3 = temp2->next->next;
 
-        while (temp1)
-        {
-            if (temp1->next)
-            {
-                while (temp2)
-                {
-                    if (temp2->next)
-                    {
-                        if (temp2->start_time > temp2->next->start_time)
-                        {
+        while (temp1) {
+            if (temp1->next) {
+                while (temp2) {
+                    if (temp2->next) {
+                        if (temp2->start_time > temp2->next->start_time) {
                             nptr2->next = nptr3->next;
                             nptr3->next = nptr2;
                             nptr1->next = nptr3;
@@ -231,16 +186,12 @@ class Schedule
                         temp2=temp2->next;
                     }
                     else
-                    {
                         break;
-                    }
                 }
                 temp1=temp1->next;
             }
             else
-            {
                 break;
-            }
         }
     }
 
@@ -248,12 +199,10 @@ class Schedule
 
 int Schedule::slot_no=0;
 
-int main()
-{
+int main() {
     Schedule day;
     bool repeat = true;
-    while (repeat)
-    {
+    while (repeat) {
         cout<<"Menu"<<endl;
         cout<<"1. Book Appointment"<<endl;
         cout<<"2. Display Slot"<<endl;
@@ -306,6 +255,7 @@ int main()
         cout<<endl;
         }
     }
+
     getch();
     return 0;
 }

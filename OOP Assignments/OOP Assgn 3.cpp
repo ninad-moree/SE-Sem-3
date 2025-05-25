@@ -2,28 +2,26 @@
 #include<string>
 using namespace std;
 
-class publication
-{
+class publication {
     private:
     string title;
     float prices;
 
     public:
-    publication()
-    {
+    publication()  {
         title="";
         prices=0.0;
     }
-    void get_data()
-    {
+
+    void get_data() {
         cout<<"\nEnter Title :";
         cin.ignore();
         getline(cin,title);
         cout<<"\nEnter Price : ";
         cin>>prices;
     }
-    void put_data()
-    {
+
+    void put_data()  {
         cout<<"\n ________________________________ \n";
         cout<<"\n Information : " <<endl;
         cout<<"\n Title :"<<title;
@@ -31,82 +29,72 @@ class publication
     }
 };
 
-class book: public publication
-{
+class book: public publication {
     private:
     int pages;
 
     public:
-    book()
-    {
+    book() {
         pages=0;
     }
 
-    void get_data()
-    {
+    void get_data() {
         publication::get_data();
         cout<<endl;
         cout<<"Enter Page Count : \n";
         cin>>pages;
     }
 
-    void put_data()
-    {
+    void put_data() {
         publication::put_data();
-        try
-        {
+
+        try {
             if(pages<0)
                 throw pages;
         }
-        catch(int f)
-        {
+        catch(int f) {
             cout<<"\n error: pages not valid :"<<f;
             pages=0;
         }
+
         cout<<"\n Pages Are :"<<pages;
     }
 };
 
-class tape: public publication
-{
+class tape: public publication {
     private:
     float playtime;
 
     public:
-    tape()
-    {
+    tape() {
         playtime=0.0;
     }
-    void get_data()
-    {
+    void get_data() {
         publication::get_data();
         cout<<"Enter Play Time Of Cassette \n";
         cin>>playtime;
     }
-    void put_data()
-    {
+
+    void put_data() {
         publication::put_data();
-        try
-        {
+        try {
             if(playtime<0.0)
                 throw playtime;
         }
-        catch(float r)
-        {
+        catch(float r) {
             cout<<"\n Error: Invalid Playtime : "<<playtime;
             playtime=0.0;
         }
         cout<<"\n Playtime is : "<<playtime;
     }
 };
-int main()
-{
+
+int main() {
     book b[10];
     tape t[10];
     int choice=0,bookCount=0,tapeCount=0;
     cout<<"-----------------------";
-    do
-    {
+    do {
         cout<<"\n 1. Add book ";
         cout<<"\n 2. Add tape: ";
         cout<<"\n 3. Display book ";
@@ -114,26 +102,22 @@ int main()
         cout<<"\n 5. Exit:"<<endl;
         cout<<"\n Enter Choice : ";
         cin>>choice;
-        switch(choice)
-        {
-            case 1:
-            {
+        switch(choice) {
+            case 1: {
                 cout<<"\n--------------\n";
                 cout<<"Add Book: \n";
                 b[bookCount].get_data();
                 bookCount++;
                 break;
             }
-            case 2:
-            {
+            case 2:  {
                 cout<<"\n--------------\n";
                 cout<<"Add Tape: \n";
                 t[tapeCount].get_data();
                 tapeCount++;
                 break;
             }
-            case 3:
-            {
+            case 3: {
                 cout<<"\n (books)";
                 for(int j=0;j<bookCount;j++)
                 {
@@ -141,8 +125,7 @@ int main()
                 }
                 break;
             }
-            case 4:
-            {
+            case 4: {
                 cout<<"\n (tape)";
                 for(int j=0;j<tapeCount;j++)
                 {
@@ -150,14 +133,12 @@ int main()
                 }
                 break;
             }
-            case 5:
-            {
+            case 5: {
                 cout<<"**********Program Exited Successfully**********"<<endl;
                 exit(0);
             }
-            default:
-            {
-            cout<<"\n Invalid";
+            default: {
+                cout<<"\n Invalid";
             }
         }
     }
