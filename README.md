@@ -1,4 +1,4 @@
-# SE Lab Assignments
+# SE Lab Assignments SEM-3
 
 ## Semester: 3
 
@@ -12,12 +12,12 @@
 
 <br />
 
-<a href="https://github.com/ninad-moree/SE-Lab-Work/tree/main/SE%20Sem-3/CG%20Assignments">
+<a href="CG Assignments">
       2. Computer Graphics Laboratory
 </a>
 
 <br />
 
-<a href="https://github.com/ninad-moree/SE-Lab-Work/tree/main/SE%20Sem-3/DSL%20Assignments">
+<a href="DSL Assignments">
       3. Fundamentals of Data Structure Laboratory
 </a>
